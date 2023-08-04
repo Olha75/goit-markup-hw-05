@@ -818,6 +818,9 @@ ol {
 .modal-icon :hover,
 .modal-icon :focus {
   fill: #ffffff;
+  background-color: var(--ocean, #404bbf);
+  background-color: #404bbf;
+  border: none;
 }
 
 /*.is-hidden {
@@ -835,7 +838,9 @@ ol {
   margin-bottom: 16px;
 }
 
-.modal-input-web{position: relative;}
+.modal-input-wrap {
+  position: relative;
+}
 .modal-input {
   width: 100%;
   height: 40px;
@@ -850,14 +855,20 @@ ol {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  outline: transparent;
+}
+.modal-input :focus-within {
+  border-color: var(--iris);
+}
+
+.modal-input-wrap :focus-within {
+  fill: var(--iris);
 }
 
 .modal-label {
   width: 41px;
-
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
-
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
@@ -873,19 +884,21 @@ ol {
   fill: #4d5ae5;
 }
 
-
-.modal-btn {display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 4px;
-background: var(--iris, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-color: var(--white, #FFF);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;}
+.modal-btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
