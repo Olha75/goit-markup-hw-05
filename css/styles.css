@@ -770,7 +770,7 @@ ol {
 }
 
 .modal {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -789,7 +789,6 @@ ol {
 .modal :hover,
 .modal :focus {
   background-color: var(--ocean, #404bbf);
-  background-color: #404bbf;
   fill: #ffffff;
   border: none;
 }
