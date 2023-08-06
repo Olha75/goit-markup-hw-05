@@ -715,14 +715,17 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  gap: 24px;
+  
 }
 .footer-form-forma {
   display: flex;
+  gap:24px;
+  margin: 0 auto;
 }
-.footer-forma-label {
+.footer-forma-label {margin: 0 auto;
 }
 .footer-forma-email {
+  
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -735,7 +738,7 @@ ol {
   color: #ffffff;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
+
   background-color: transparent;
 }
 
