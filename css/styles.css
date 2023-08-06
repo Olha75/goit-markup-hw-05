@@ -613,9 +613,9 @@ ol {
   display: flex;
   align-items: baseline;
 }*/
-/*.footer-left {
+.footer-left {
   margin-right: 120px;
-}*/
+}
 .footer-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -642,7 +642,7 @@ ol {
   max-width: 264px;
 }
 
-/*.footer-social-menu {
+.footer-social-menu {
   text-align: center;
   margin: 0;
   top: 100px;
@@ -650,7 +650,7 @@ ol {
   display: block;
   align-items: baseline;
   margin-right: 80px;
-}*/
+}
 
 .footer-title {
   color: var(--white, #fff);
