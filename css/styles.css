@@ -612,7 +612,8 @@ ol {
   align-items: baseline;
   margin: 0 auto;
 }
-.footer-left {margin: 0 auto;
+.footer-left {
+  margin: 0 auto;
   margin-right: 120px;
 }
 .footer-logo {
@@ -704,7 +705,6 @@ ol {
 }
 
 .footer-forma {
-  
   display: block;
   margin: 0 auto;
 }
@@ -715,10 +715,10 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  gap: 24px;
 }
 .footer-form-forma {
   display: flex;
-  
 }
 .footer-forma-label {
 }
@@ -753,7 +753,6 @@ ol {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  
   border-radius: 4px;
   background: #4d5ae5;
   color: #fff;
