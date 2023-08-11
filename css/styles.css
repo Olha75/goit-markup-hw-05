@@ -817,7 +817,7 @@ ol {
   height: 24px;
 }
 .modal :hover.modal-close-btn,
-.modal :focus .modal-close-btn {
+.modal :focus.modal-close-btn {
   background-color: var(--ocean, #404bbf);
   fill: #ffffff;
   border: none;
@@ -1003,12 +1003,28 @@ font-family: Roboto;
   letter-spacing: 0.04em;
   color: var(--light-slate);
   fill: transparent;
+display: flex; align-items: center;}
+
+.icon-pole-galochka{ margin-right: 8px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
+  .modal-checkbox-wrap :focus.icon-pole-galochka{
+    fill: var(--ocean, #404BBF);
+    stroke: var(--ocean, #404BBF);
+}
+.icon-pole-galochka{
+
+}
+
+.icon-galochka{FILL:RED}
 .checkbox-link {
   color: var(--iris,#4d5ae5); 
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline; 
+  
   } 
