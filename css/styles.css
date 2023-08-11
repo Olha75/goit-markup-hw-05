@@ -984,14 +984,21 @@ display: flex; align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;align-items: center;justify-content: center; } 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  } 
 
-/* .checkbox-label :focus .icon-pole-galochka{
-    fill: var(--ocean, #404BBF);
-    stroke: var(--ocean, #404BBF);
-} */
 
-.icon-galochka{FILL:RED}
+/* .icon-galochka {fill: transparent;} */
+
+.modal-input-checkbox:checked + .checkbox-label span {
+  background-color:#404bbf;
+  border:none;
+  fill: var(--cloud,#F4F4FD);}
+
+
 .checkbox-link {
   color: var(--iris,#4d5ae5); 
   font-size: 12px;
@@ -1000,4 +1007,4 @@ display: flex; align-items: center;
   text-decoration-line: underline; 
   
   } 
-  .modal-input-checkbox :checked .icon-pole-galochka{background-color:#404bbf; fill:#F4F4FD;}
+  
