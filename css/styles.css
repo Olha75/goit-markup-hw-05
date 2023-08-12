@@ -874,14 +874,15 @@ ol {
 .modal-input:focus + .modal-frame {
   fill:#4D5AE5;
 }
-
+.modal-textarea-wrap{
+  margin-bottom: 16px;
+}
 .modal-textarea::placeholder {
   color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
   font-size: 12px;
     line-height: 1.16;
   letter-spacing: 0.04em;
-  
- }
+}
 
 .modal-input-wrap:focus{
   border-color: #4d5ae5;
@@ -970,7 +971,7 @@ display: flex; align-items: center;
     } 
 
   .modal-btn {
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
