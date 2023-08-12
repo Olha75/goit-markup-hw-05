@@ -940,7 +940,7 @@ ol {
   letter-spacing: 0.04em;
   color: var(--light-slate);
   fill: transparent;
-display: flex; align-items: center;
+align-items: center;
 }
 
 .icon-pole-galochka{
